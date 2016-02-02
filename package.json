@@ -1,0 +1,25 @@
+{
+  "name": "cssguard",
+  "version": "1.0.0",
+  "style": "dist/cssguard.min.css",
+  "files": [
+    "index.css",
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "set-up": "npm install",
+    "compile": "cssnano cssguard.css dist/cssguard.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/filipelinhares/cssguard"
+  },
+  "keywords": [
+    "test",
+    "css"
+  ],
+  "devDependencies": {
+    "cssnano-cli": "^1.0.3"
+  }
+}
