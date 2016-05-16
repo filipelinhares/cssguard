@@ -1,6 +1,6 @@
 {
   "name": "cssguard",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "style": "dist/cssguard.min.css",
   "scripts": {
     "test": "stylelint ./cssguard.css",
