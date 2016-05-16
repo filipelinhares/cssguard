@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "style": "dist/cssguard.min.css",
   "scripts": {
+    "test": "stylelint ./cssguard.css",
     "set-up": "npm install",
     "compile": "cssnano cssguard.css dist/cssguard.min.css"
   },
@@ -15,6 +16,7 @@
     "css"
   ],
   "devDependencies": {
-    "cssnano-cli": "^1.0.3"
+    "cssnano-cli": "^1.0.3",
+    "stylelint": "^6.3.3"
   }
 }
