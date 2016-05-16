@@ -29,8 +29,6 @@
 
 .test-module::before {
   margin-right: 10px;
-  text-transform: capitalize;
-
   content: counter(test-suit);
   counter-increment: test-suit;
 }
@@ -41,7 +39,6 @@
   margin-bottom: 10px;
   color: #444;
   font-family: sans-serif;
-  text-transform: capitalize;
   background-color: #fff;
   border-bottom: 1px solid #ccc;
   border-radius: 3px;
