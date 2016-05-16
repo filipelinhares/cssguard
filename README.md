@@ -1,4 +1,4 @@
-# CSS Guard
+# CSS Guard [![Build Status](https://travis-ci.org/filipelinhares/cssguard.svg?branch=master)](https://travis-ci.org/filipelinhares/cssguard)
 > An easy way to test your CSS.
 
 ## Install
@@ -17,7 +17,7 @@ npm install --save-dev cssguard
   ```
   or
   ```html
-  <link rel="stylesheet" href="../node_modules/cssguard/dist/cssguard.css">
+  <link rel="stylesheet" href="../node_modules/cssguard/dist/cssguard.min.css">
   ```
 5. Create your test suite
 
